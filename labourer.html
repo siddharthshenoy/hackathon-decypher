@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <form method="post">
+            {% csrf_token %}
+                <input type="text" name="Name" placeholder="Name">Name<br>
+                <input type="text" name="Photo" placeholder="Name">Photo<br>
+                <input type="text" name="Skill" placeholder="Skill">Skill<br>
+                <input type="text" name="Locality" placeholder="Locality">Locality<br>
+                <input type="text" name="Username" placeholder="Username">Username<br>
+                <input type="text" name="Password1" placeholder="Password">Password<br>
+                <input type="text" name="Password2" placeholder="Password">Confirm Password<br>
+                <input type="submit">
+        </form>
+    </body>
+</html>
